@@ -8,7 +8,7 @@ Release:	%{release}
 Summary:	Snare for Linux - audit subsystem control and distribution
 License:	GPL
 Group:		System Environment/Daemons
-URL:		http://www.intersectalliance.com/
+URL:		https://www.intersectalliance.com/
 Source: 	http://www.intersectalliance.com/projects/SnareLinux/Download/%{name}-%{version}.tar.gz
 Requires:	audit >= 1.0.16, libaudit1 >= 1.0.16, policycoreutils
 BuildRequires:	libaudit-devel >= 1.0.16

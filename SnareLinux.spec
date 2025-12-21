@@ -11,6 +11,7 @@ Group:		System Environment/Daemons
 URL:		https://www.intersectalliance.com/
 Source: 	http://www.intersectalliance.com/projects/SnareLinux/Download/%{name}-%{version}.tar.gz
 Requires:	audit >= 1.0.16, libaudit1 >= 1.0.16, policycoreutils
+BuildRequires:	make
 BuildRequires:	libaudit-devel >= 1.0.16
 Buildroot:	%{_tmppath}/%{name}-%{version}-%{release}-root
 

@@ -1,6 +1,6 @@
 %define name SnareLinux
 %define version 1.5.1
-%define release %mkrel 1
+%define release 2
 
 Name:		%{name}
 Version:	%{version}
